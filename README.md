@@ -1,5 +1,7 @@
 # BDP26 Blog – Submission Guide
 
+Blog Website: https://bdp26.github.io/ 
+
 Welcome! Each project group will submit one **Markdown blog post** summarizing your project work.
 
 ## 📝 How to Submit Your Blog Post
@@ -30,7 +32,9 @@ Welcome! Each project group will submit one **Markdown blog post** summarizing y
    - Visualizations (images, tables)
    - Key results and conclusion
 
-5. **Submit via pull request**. **DEADLINE: 31.05.2026**
+5. **Submit via pull request or directly push to this repo**. **DEADLINE: 31.05.2026**
+
+6. Watch your post here: https://bdp26.github.io/
 
 ## ✅ Tips
 
