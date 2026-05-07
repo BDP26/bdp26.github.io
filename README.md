@@ -11,7 +11,7 @@ Welcome! Each project group will submit one **Markdown blog post** summarizing y
    ```
    Example:
    ```
-   2025-07-12-group3-energy-prediction.md
+   2026-05-12-group3-energy-prediction.md
    ```
 
 3. **Start your file with this front matter** (change title and author!):
@@ -30,7 +30,7 @@ Welcome! Each project group will submit one **Markdown blog post** summarizing y
    - Visualizations (images, tables)
    - Key results and conclusion
 
-5. **Submit via pull request**. **DEADLINE: 01.06.2025**
+5. **Submit via pull request**. **DEADLINE: 31.05.2026**
 
 ## ✅ Tips
 
