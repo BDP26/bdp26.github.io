@@ -1,4 +1,4 @@
-# BDP25 Blog – Submission Guide
+# BDP26 Blog – Submission Guide
 
 Welcome! Each project group will submit one **Markdown blog post** summarizing your project work.
 
