@@ -16,7 +16,7 @@ FinFlow makes that overlap visible. We built a platform that fuses nearly **667 
 
 Once everything rendered together, one pattern jumped out. We call it the **Great Divide**: industrial shipping is overwhelmingly concentrated in the Northern Hemisphere, while many of the planet's richest megafauna hotspots sit in the Southern Hemisphere, especially around Antarctic waters.
 
-![Global overlap of cargo traffic (red) and marine species sightings](./assets/img/finflow-global-overlap.png)
+![Global overlap of cargo traffic (red) and marine species sightings](assets/img/finflow-global-overlap.png)
 
 One thing to note: OBIS records are coastline-biased, because that's where the researchers and sensors are. So "biodiversity hotspot" partly means "hotspot of human observation."
 
