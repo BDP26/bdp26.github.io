@@ -59,4 +59,4 @@ Our model applies a **Poisson significance test**: it measures a repository's re
 
 GitHub's event stream already contains everything needed to spot tomorrow's breakout projects. The challenge is processing it continuously, at scale, and with enough statistical rigour to separate genuine momentum from noise. That is exactly what GitHub Insights does.
 
-**Want to run it yourself?** The full source code and setup instructions are on [GitHub](https://github.com/BDP26/pm4-github-insights). Curious about more student data engineering projects? Browse all summaries at [bdp26.github.io](https://bdp26.github.io/).
+**Want to run it yourself?** The full source code and setup instructions are on [GitHub](https://github.com/BDP26/pm4-github-insights). A live demo is available at [github-insights.gampegia.dev](https://github-insights.gampegia.dev/) (as long as the VM is still running). To obtain the password, contact [gampegia@students.zhaw.ch](mailto:gampegia@students.zhaw.ch).
