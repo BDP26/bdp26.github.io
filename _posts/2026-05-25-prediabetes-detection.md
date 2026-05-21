@@ -4,7 +4,7 @@ title: Kann meine Smartwatch Diabetes erkennen? Unsere Spurensuche in Wearable-D
 author: Alex Smolders, Thierry Zürcher, Abishanth Jeyatheeswaran
 ---
 
-# Kann meine Smartwatch Diabetes erkennen? Unsere Spurensuche in Wearable-Daten
+# Kann meine Garmin Diabetes erkennen? Unsere Spurensuche in Wearable-Daten
  
 *Von Alex Smolders, Abishanth Jeyatheeswaran und Thierry Zürcher*
  
