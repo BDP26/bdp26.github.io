@@ -52,7 +52,7 @@ The model knew nothing about bans, migrations, or sanctions. It just flagged the
 
 ## The Interactive Dashboard
 
-The frontend is a [SvelteKit](https://kit.svelte.dev/) and TypeScript app rendering GPU-accelerated layers via [MapLibre GL](https://maplibre.org/) and [deck.gl](https://deck.gl/). [H3](https://h3geo.org) resolution adapts to zoom level. Anomalies render as red pins, and clicking one snaps every filter to that event's date and location.
+The frontend is a [SvelteKit](https://kit.svelte.dev/) and TypeScript app rendering GPU-accelerated layers via [MapLibre GL](https://maplibre.org/) and [deck.gl](https://deck.gl/). H3 resolution adapts to zoom level. Anomalies render as red pins, and clicking one snaps every filter to that event's date and location.
 
 DuckDB queries take several seconds, too long for a synchronous HTTP call. The [FastAPI](https://fastapi.tiangolo.com/) gateway uses a submit, poll, fetch pattern against the Ray cluster. Results come back as [Apache Arrow IPC](https://arrow.apache.org/) streams, roughly **5.8× more compact than equivalent JSON**, mapping straight to WebGL-friendly TypedArrays.
 
