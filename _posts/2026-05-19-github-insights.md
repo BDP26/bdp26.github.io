@@ -5,7 +5,7 @@ date: 2026-05-19
 author: Jonas Bratschi, Jann Erhardt, Gian Gamper
 ---
 
-Every day, millions of push events, pull requests, and repository forks flood GitHub's public event stream. Buried in that noise is tomorrow's most popular open-source library, but by the time it surfaces on [GitHub's Trending page](https://github.com/trending), the momentum has already peaked.
+Every day, thousands of push events, pull requests, and repository forks flood GitHub's public event stream. Buried in that noise is tomorrow's most popular open-source library, but by the time it surfaces on [GitHub's Trending page](https://github.com/trending), the momentum has already peaked.
 
 We built **GitHub Insights** to catch breakout projects the moment they accelerate, not weeks later.
 
