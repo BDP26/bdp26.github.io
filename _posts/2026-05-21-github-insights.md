@@ -18,7 +18,7 @@ The system is a fully containerized, event-driven pipeline. Rather than batch-pr
 - **TimescaleDB** stores enriched records in hypertables with pre-computed continuous aggregates for fast time-range queries.
 - **FastAPI** applies scoring logic and serves results via REST and Server-Sent Events to the **Next.js** dashboard.
 
-![System Flowchart](/assets/img/2026-05-21-github-insights-flowchart.png)
+![System Flowchart](./assets/img/2026-05-21-github-insights-flowchart.png)
 
 To sidestep the strict rate limits of public geocoding services, we run a local *Photon* geocoder (an [OpenStreetMap-based engine](https://photon.komoot.io/)) inside the same Docker stack, keeping enrichment fast without external dependencies.
 
@@ -26,7 +26,7 @@ To sidestep the strict rate limits of public geocoding services, we run a local 
 
 A Grafana monitoring layer gives the team live visibility into pipeline health and throughput.
 
-![Admin Dashboard](/assets/img/2026-05-21-github-insights-Final_Dashboard.jpeg)
+![Admin Dashboard](./assets/img/2026-05-21-github-insights-Final_Dashboard.jpeg)
 
 After several weeks of continuous operation, the pipeline had processed:
 
@@ -37,17 +37,17 @@ After several weeks of continuous operation, the pipeline had processed:
 
 All of this runs on a single virtualised server with 16 vCPUs and 31 GiB of RAM, with no distributed cloud cluster required.
 
-![Platform Statistics](/assets/img/2026-05-21-github-insights-Frontend_Stats.png)
+![Platform Statistics](./assets/img/2026-05-21-github-insights-Frontend_Stats.png)
 
 ### Who Codes Where? A Planet of Open-Source Activity
 
-![Geocoded Activity Globe](/assets/img/2026-05-21-github-insights-Frontend_Globe.png)
+![Geocoded Activity Globe](./assets/img/2026-05-21-github-insights-Frontend_Globe.png)
 
 Every event is linked to a geographic location. Using our local Photon geocoder, the pipeline achieves a **98.0% geocoding success rate** across 217 countries. The result is an interactive 3D globe that maps developer activity as heatmap peaks, showing where open-source momentum is building around the world.
 
 ### Finding Tomorrow's Libraries Before They Trend
 
-![Hidden Gems Dashboard](/assets/img/2026-05-21-github-insights-Frontend_Hidden-Gems.png)
+![Hidden Gems Dashboard](./assets/img/2026-05-21-github-insights-Frontend_Hidden-Gems.png)
 
 The heart of GitHub Insights is the **Hidden Gems** discovery engine. Most ranking systems sort repositories by total star count, which means established giants always dominate. We took a different approach.
 
