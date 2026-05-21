@@ -19,7 +19,7 @@ The system is a fully containerized, event-driven pipeline. Rather than batch-pr
 - **TimescaleDB** stores enriched records in hypertables with pre-computed continuous aggregates for fast time-range queries.
 - **FastAPI** applies scoring logic and serves results via REST and Server-Sent Events to the **Next.js** dashboard.
 
-![System Flowchart](/assets/img/2026-05-21-github-insights-flowchart.png)
+![System Flowchart]( /assets/img/2026-05-21-github-insights-flowchart.png)
 
 To sidestep the strict rate limits of public geocoding services, we run a local *Photon* geocoder (an [OpenStreetMap-based engine](https://photon.komoot.io/)) inside the same Docker stack, keeping enrichment fast without external dependencies.
 
