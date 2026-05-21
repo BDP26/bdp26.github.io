@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Can You Spot the Next Breakout Open-Source Project Before It Trends?"
-date: 2026-05-21
+date: 2026-05-19
 author: Jonas Bratschi, Jann Erhardt, Gian Gamper
 ---
 
