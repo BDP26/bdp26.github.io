@@ -65,7 +65,7 @@ Dieses Verfahren bewertet, ob Vorhersagen klinisch sicher sind. Die Ergebnisse w
 * Nur **0.3 %** wichen stärker ab
 * Keine Vorhersage führte zu einer gefährlichen Fehleinschätzung
 
-![Abbildung 2: Clarke Error Grid Analysis — Verteilung in den Zonen A und B](../assets/img/clarke_digramm.png)
+![Abbildung 2: Clarke Error Grid Analysis — Verteilung in den Zonen A und B](../assets/img/clarke_diagramm.png)
 
 ## Ausblick
 
