@@ -4,7 +4,7 @@ title: "Dem Diabetes-Risiko auf der Spur: Wie deine Garmin-Uhr zum Lebensretter 
 author: Abishanth Jeyatheeswaran, Alex Smolders und Thierry Zürcher
 ---
 
-Wearables wie die *Garmin Vivosmart 5* gehören heute für viele Menschen zum Alltag. Sie messen Herzfrequenz, Schlaf, Aktivität und Stress rund um die Uhr. Doch könnten solche Geräte in Zukunft noch mehr leisten als Fitness-Tracking? Genau dieser Frage widmete sich unsere wissenschaftliche Arbeit. Ziel war es zu untersuchen, ob Daten aus kommerziellen Smartwatches und medizinischen Sensoren genutzt werden können, um Prädiabetes frühzeitig zu erkennen und Blutzuckerwerte vorherzusagen.
+Wearables wie die **Garmin Vivosmart 5** gehören heute für viele Menschen zum Alltag. Sie messen Herzfrequenz, Schlaf, Aktivität und Stress rund um die Uhr. Doch könnten solche Geräte in Zukunft noch mehr leisten als Fitness-Tracking? Genau dieser Frage widmete sich unsere wissenschaftliche Arbeit. Ziel war es zu untersuchen, ob Daten aus kommerziellen Smartwatches und medizinischen Sensoren genutzt werden können, um Prädiabetes frühzeitig zu erkennen und Blutzuckerwerte vorherzusagen.
 
 ## Das unsichtbare Risiko Prädiabetes
 
