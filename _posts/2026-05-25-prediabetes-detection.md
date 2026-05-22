@@ -39,7 +39,7 @@ Die Ergebnisse zeigen, dass aktuelle Wearables im Alltag noch mit mehreren Probl
 * Fehlende Kontinuität bei den Messungen
 * Begrenzte Aussagekraft einzelner Sensorwerte
 
-![Abbildung 1: Daten-Pipeline und Feature-Importance der AI-READI-Analyse](../../../assets/img/f1_ai_readi_prediabetes.png)
+![Abbildung 1: Daten-Pipeline und Feature-Importance der AI-READI-Analyse](../assets/img/ff1_ai_readi_prediabetes.png)
 
 ## Der biologische Rhythmus als Schlüssel
 
@@ -65,7 +65,7 @@ Dieses Verfahren bewertet, ob Vorhersagen klinisch sicher sind. Die Ergebnisse w
 * Nur **0.3 %** wichen stärker ab
 * Keine Vorhersage führte zu einer gefährlichen Fehleinschätzung
 
-![Abbildung 2: Clarke Error Grid Analysis — Verteilung in den Zonen A und B](../../../assets/img/clarke_digramm.png)
+![Abbildung 2: Clarke Error Grid Analysis — Verteilung in den Zonen A und B](../assets/img/clarke_digramm.png)
 
 ## Ausblick
 
