@@ -6,7 +6,7 @@ author: Natalie Jakab, Sarruja Sabesan und Gwendoline Vocat
 
 ---
 
-<img src="../picture/ZHAW_LOGO_2.webp" alt="ZHAW Logo" width="150">
+<img src="../assets/img/gridwatch/ZHAW_LOGO_2.webp" alt="ZHAW Logo" width="150">
 
 *Blogartikel GridWatch*  
 *ZHAW Data Science | PM4 - Big Data Projekt | Mai 2026*
@@ -56,7 +56,7 @@ Die eigentliche Herausforderung war die Infrastruktur: Wir kombinierten stündli
 
 **Saubere Daten entstehen nicht von selbst.**
 
-![Architekturdiagramm](../picture/pipeline.png)
+![Architekturdiagramm](../assets/img/gridwatch/pipeline.png)
 > 📷 *Architekturdiagramm: Datenpipeline*
 
 ---
@@ -65,7 +65,7 @@ Die eigentliche Herausforderung war die Infrastruktur: Wir kombinierten stündli
 Das ist das klassische Schweizer Winterproblem: **Maximaler Bedarf** trifft auf **minimale erneuerbare Produktion**.
  Steigt die Temperatur (gelb), sinkt der Verbrauch (grün) und umgekehrt.
 
-![Verbrauch_vs_Temperatur](../picture/Verbrauch_vs_Temperatur.png)
+![Verbrauch_vs_Temperatur](../assets/img/gridwatch/Verbrauch_vs_Temperatur.png)
 > 📷 *Verbrauch vs Temperatur*
 
 
@@ -74,11 +74,11 @@ Solarproduktion und Sonnenstrahlung verlaufen saisonal: hoch im Sommer, tief im 
 <table style="border: none; border-collapse: collapse; width: 100%; table-layout: fixed;">
   <tr>
     <td style="border: none; width: 100%; text-align: center; padding-right: 20px;">
-      <img src="../picture/Solar-Produktion_vs_Sonnenstrahlung.png" width="150%">
+      <img src="../assets/img/gridwatch/Solar-Produktion_vs_Sonnenstrahlung.png" width="150%">
       <br>📷 <em>Solar-Produktion vs Sonnenstrahlung</em>
     </td>
     <td style="border: none; width: 50%; text-align: center; padding-left: 50px;">
-      <img src="../picture/Wind-Produktion_vs_Windgeschwindigkeit.png" width="100%">
+      <img src="../assets/img/gridwatch/Wind-Produktion_vs_Windgeschwindigkeit.png" width="100%">
       <br>📷 <em>Wind-Produktion vs Windgeschwindigkeit</em>
     </td>
   </tr>
@@ -95,11 +95,11 @@ Für die zweite Forschungsfrage haben wir Szenarien modelliert: Was passiert, we
 <table style="border: none; border-collapse: collapse; width: 100%;">
   <tr>
     <td style="border: none; width: 50%; text-align: center; padding-right: 10px;">
-      <img src="../picture/Szenario_Solar.png" width="100%">
+      <img src="../assets/img/gridwatch/Szenario_Solar.png" width="100%">
       <br>📷 <em>Solar Szenario</em>
     </td>
     <td style="border: none; width: 50%; text-align: center; padding-left: 10px;">
-      <img src="../picture/Szenario_Wind.png" width="100%">
+      <img src="../assets/img/gridwatch/Szenario_Wind.png" width="100%">
       <br>📷 <em>Wind Szenario</em>
     </td>
   </tr>
