@@ -6,14 +6,14 @@ author: Abishanth Jeyatheeswaran, Alex Smolders und Thierry Zürcher
 *ZHAW Data Science | PM4 - Big Data Projekt | Mai 2026*
 # Dem Diabetes-Risiko auf der Spur: Wie deine Garmin-Uhr zum Lebensretter werden könnte!
 
-Smartwatches wie die **Garmin Vivosmart 5** messen Herzfrequenz, Schlaf und Stress rund um die Uhr. och könnten solche Geräte in Zukunft noch mehr leisten als reines Fitness-Tracking? Unsere wissenschaftliche Arbeit untersuchte, ob Wearable-Daten Prädiabetes frühzeitig erkennen und Blutzuckerwerte verlässlich vorhersagen können.
+Smartwatches wie die **Garmin Vivosmart 5** messen Herzfrequenz, Schlaf und Stress rund um die Uhr. Doch könnten solche Geräte in Zukunft noch mehr leisten als reines Fitness-Tracking? Unsere wissenschaftliche Arbeit untersuchte, ob Wearable-Daten Prädiabetes frühzeitig erkennen und Blutzuckerwerte verlässlich vorhersagen können.
 
 
 ## Das unsichtbare Risiko Prädiabetes
 
 Prädiabetes beschreibt einen Zustand, bei dem der Blutzuckerspiegel bereits erhöht ist, ohne jedoch die Grenzwerte eines *Diabetes Typ 2* zu erreichen. 
 
-*   **Das Problem:** Betroffene spüren meist absolut nichts – viele wissen jahrelang nichts von ihrem Risiko. Die Diagnose erfolgt heute meist erst über Bluttests in der Arztpraxis. Eine kontinuierliche, schmerzfreie Überwachung im Alltag fehlt.
+*   **Das Problem:** Betroffene spüren meist absolut nichts, denn viele wissen jahrelang nichts von ihrem Risiko. Die Diagnose erfolgt heute meist erst über Bluttests in der Arztpraxis. Eine kontinuierliche, schmerzfreie Überwachung im Alltag fehlt.
 *   **Die Chance:** Gerade dieses Stadium ist oft noch **vollständig umkehrbar**! Durch mehr Bewegung, gesündere Ernährung und Lebensstiländerungen lässt sich die chronische Erkrankung häufig verhindern.
 
 > Hier setzt unser Projekt an: Können intelligente Algorithmen basierend auf Wearable-Sensordaten erkennen, ob sich im Körper eine Stoffwechselstörung entwickelt?
@@ -49,7 +49,7 @@ Da wir uns in unserer Forschung jedoch rein auf die Sensordaten der Smartwatch f
 
 ## Der biologische Rhythmus als Schlüssel
 
-Deutlich erfolgreicher war unser zweiter Forschungsansatz: die Vorhersage zukünftiger Blutzuckerwerte über einen Zeitraum von 30 Minuten mittels eines **Quantile-XGBoost-Modells**. 
+Erfolgreicher war unser zweiter Forschungsansatz: die Vorhersage zukünftiger Blutzuckerwerte über einen Zeitraum von 30 Minuten mittels eines **Quantile-XGBoost-Modells**. 
 
 Der Durchbruch gelang uns durch zwei entscheidende Faktoren:
 
