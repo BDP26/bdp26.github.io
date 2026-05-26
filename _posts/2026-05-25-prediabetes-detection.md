@@ -3,8 +3,8 @@ layout: post
 title: "Dem Diabetes-Risiko auf der Spur: Wie deine Garmin-Uhr zum Lebensretter werden könnte!"
 author: Abishanth Jeyatheeswaran, Alex Smolders und Thierry Zürcher
 ---
+
 *ZHAW Data Science | PM4 - Big Data Projekt | Mai 2026*
-# Dem Diabetes-Risiko auf der Spur: Wie deine Garmin-Uhr zum Lebensretter werden könnte!
 
 Smartwatches wie die **Garmin Vivosmart 5** messen Herzfrequenz, Schlaf und Stress rund um die Uhr. Doch könnten solche Geräte in Zukunft noch mehr leisten als reines Fitness-Tracking? Unsere wissenschaftliche Arbeit untersuchte, ob Wearable-Daten Prädiabetes frühzeitig erkennen und Blutzuckerwerte verlässlich vorhersagen können.
 
@@ -40,6 +40,7 @@ Für die Erkennung von Prädiabetes haben wir ein KI-Modell namens **LightGBM** 
 Das Modell erreichte zunächst eine Genauigkeit von **68.9 %**. Bei genauerer Analyse zeigte sich jedoch, dass vor allem das Alter der Testpersonen der entscheidende Faktor war. Statistisch gesehen haben ältere Menschen ein höheres Risiko für Prädiabetes. 
 
 ![Abbildung 1: Daten-Pipeline und Feature-Importance der AI-READI-Analyse](../assets/img/ff1_ai_readi_prediabetes.png)
+<img src="../assets/img/ff1_ai_readi_prediabetes.png" alt="Abbildung 1: Daten-Pipeline und Feature-Importance der AI-READI-Analyse" style="max-width:100%; height:auto;">
 *Einfluss der unterschiedlichen Datenwerte auf die Vorhersage (Modell mit 68.9 % Genauigkeit)*
 
 Da wir uns in unserer Forschung jedoch rein auf die Sensordaten der Smartwatch fokussieren wollten (ohne demografische Daten wie das Alter vorauszusetzen), haben wir das Alter in einem zweiten Schritt aus dem Modell entfernt. Das Ergebnis: Die Genauigkeit sank deutlich auf **47.5 %**.
@@ -66,6 +67,7 @@ Der Durchbruch gelang uns durch zwei entscheidende Faktoren:
 In der Medizin reicht eine gute statistische Genauigkeit alleine nicht aus. Mit Hilfe der sogenannten **Clarke Error Grid Analysis** lässt sich beurteilen, ob ein Messfehler für Patienten klinisch gefährlich wäre. Das Ziel ist es, dass möglichst 100 % der Vorhersagen in den sicheren Zonen A und B landen, da Fehler in diesen Bereichen keine falschen medizinischen Behandlungen auslösen würden.
 
 ![Abbildung 2: Clarke Error Grid Analysis — Verteilung in den Zonen A und B](../assets/img/clarke_diagramm.png)
+<img src="../assets/img/clarke_diagramm.png" alt="Abbildung 2: Clarke Error Grid Analysis — Verteilung in den Zonen A und B" style="max-width:100%; height:auto;">
 *Clarke Error Grid Analysis zur Beurteilung des Risikos von Vorhersagefehlern und deren Auswirkungen auf therapeutische Entscheidungen*
 
 Die Ergebnisse unseres Modells waren medizinisch extrem vielversprechend:
