@@ -19,7 +19,7 @@ Which leaves an awkward question for the rest of us: if the engine on your phone
 
 **RealMove** is a small web tool. Enter any position, pick a rating bracket — say 1400–1500 — and it shows you the five moves that real players in that bracket actually made. Not the best move. The most *common* one. The data comes from the [Lichess Open Database](https://database.lichess.org/).
 
-<img src="./assets/img/Real_Move_web_app.png" alt="Screenshot of the RealMove web interface showing a chessboard with the top five most-played moves listed beside it for a selected Elo bracket." style="width: 280px;">
+<img src="/assets/img/Real_Move_web_app.png" alt="Screenshot of the RealMove web interface showing a chessboard with the top five most-played moves listed beside it for a selected Elo bracket." style="width: 280px;">
 
 *RealMove answers a different question: not "what's best", but "what's most likely".*
 
@@ -29,7 +29,7 @@ A single month of Lichess data is 10–20 GB compressed, containing roughly **10
 
 To takle this we built a three-stage pipeline: extract the raw moves, group them by position and rating, then merge into one tightly compressed [Apache Parquet](https://parquet.apache.org/) file that the live web app queries in milliseconds via [DuckDB](https://duckdb.org/).
 
-![A clean architecture diagram showing the three pipeline stages: Stage 1 Extraction, Stage 2 Grouping, Stage 3 Merging, with the Flask web app querying the final parquet file.](./assets/img/pipeline_page.png)
+![Diagram showing the three pipeline stages: Stage 1 Extraction, Stage 2 Grouping, Stage 3 Merging, with the Flask web app querying the final parquet file.](/assets/img/pipeline_page.png)
 *The pipeline in three stages — extract, aggregate, merge.*
 
 ## A story about bottlenecks
