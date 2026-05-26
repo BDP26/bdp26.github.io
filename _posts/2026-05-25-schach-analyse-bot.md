@@ -3,7 +3,6 @@ layout: post
 title: "Forget the best move. What would your opponent actually play?"
 author: Nelly Mossig & Chris Eggenberger
 ---
-# Forget the best move. What would someone like you actually play?
 *A chess engine can crush the world champion. That doesn't make its advice useful.*
 
 ## A game too big to count
