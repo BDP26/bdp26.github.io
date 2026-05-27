@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Dem Diabetes-Risiko auf der Spur: Wie deine Garmin-Uhr zum Lebensretter werden könnte!"
+title: "Diabetes auf der Spur: Wie deine Garmin-Uhr zum Lebensretter werden könnte!"
 author: Abishanth Jeyatheeswaran, Alex Smolders und Thierry Zürcher
 ---
 
