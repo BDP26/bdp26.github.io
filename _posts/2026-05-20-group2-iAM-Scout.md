@@ -1,10 +1,12 @@
 ---
-title: "iAM-Scout: Goals, Tables, Talents"
 author: "Fabian Meier, Cedric Niklaus"
 layout: post
 ---
 
-![](../../../assets/img/iamscout_Banner.png){: style="float: right; width: 200px; margin-left: 24px;"}
+<div style="display: flex; align-items: center; gap: 20px; margin-bottom: 20px;">
+  <h1 style="margin: 0; font-size: 2em;">iAM-Scout: Goals, Tables, Talents</h1>
+  <img src="../../../assets/img/iamscout_Banner.png" alt="iAM-Scout logo" style="width: 260px; flex-shrink: 0;">
+</div>
 
 Imagine you want to find the next interesting player in Swiss amateur football. You open a match page, then a player profile, then another statistics table. After a while, your browser has twenty tabs open and the real comparison has not even started yet.
 
