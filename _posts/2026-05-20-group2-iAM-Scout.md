@@ -2,13 +2,9 @@
 title: "iAM-Scout: Goals, Tables, Talents"
 author: "Fabian Meier, Cedric Niklaus"
 layout: post
-output:
-  pdf_document: default
-  html_document:
-    df_print: paged
 ---
 
-<img src="../assets/img/iamscout_banner.png" alt="iAM-Scout logo" style="float: right; width: 260px; margin-top: -125px; margin-left: 25px; margin-bottom: 15px;">
+<img src="../../../assets/img/iamscout_banner.png" alt="iAM-Scout logo" style="float: right; width: 260px; margin-top: -125px; margin-left: 25px; margin-bottom: 15px;">
 
 Imagine you want to find the next interesting player in Swiss amateur football. You open a match page, then a player profile, then another statistics table. After a while, your browser has twenty tabs open and the real comparison has not even started yet.
 
@@ -42,13 +38,13 @@ The idea is simple: use public football data as a *first filter*. Instead of sta
 
 ## Tables: From Messy Web Pages to Clean Data
 
-![](../assets/img/iamscout_pipeline.png)
+![](../../../assets/img/iamscout_pipeline.png)
 
 The pipeline starts with public football websites. Since the data is not available as a ready-to-use dataset, a **web scraping** component collects information from match pages, player profiles and team pages.
 
 After that, the raw data is cleaned and stored in a **PostgreSQL database**. This database became the **backbone of iAM-Scout**. It connects clubs, players, seasons, matches and player statistics, so that the models and the final application can actually work with the data.
 
-![](../assets/img/iamscout_database_overview.png)
+![](../../../assets/img/iamscout_database_overview.png)
 
 For a scout, this matters because the data is no longer hidden across many separate pages. It can be filtered and compared in one structured system.
 
@@ -61,7 +57,7 @@ To make amateur players comparable, we first trained a **Rating Model** on profe
 To make the idea more tangible, we created an example **iAM-Scout 11**. This lineup shows players that our recommender identified as promising suggestions.
 The lineup is not a final ranking and not a complete scouting report. It is a starting point for discussion.
 
-![](../assets/img/iamscout_11.png)
+![](../../../assets/img/iamscout_11.png)
 
 Some suggestions also look plausible beyond the numbers. For example, **Jean-Paul N'Djoli** has already moved to the **second-highest Swiss league**, while **Nevio Di Giusto** is now part of the **first team of FC Zurich** in the highest Swiss league.
 
