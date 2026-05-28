@@ -4,7 +4,7 @@ author: "Fabian Meier, Cedric Niklaus"
 layout: post
 ---
 
-<img src="../../../assets/img/iamscout_banner.png" alt="iAM-Scout logo" style="float: right; width: 260px; margin-top: -125px; margin-left: 25px; margin-bottom: 15px;">
+<img src="../../../assets/img/iamscout_Banner.png" alt="iAM-Scout logo" style="float: right; width: 260px; margin-top: -125px; margin-left: 25px; margin-bottom: 15px;">
 
 Imagine you want to find the next interesting player in Swiss amateur football. You open a match page, then a player profile, then another statistics table. After a while, your browser has twenty tabs open and the real comparison has not even started yet.
 
