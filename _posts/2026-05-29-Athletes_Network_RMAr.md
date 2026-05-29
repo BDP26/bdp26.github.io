@@ -14,7 +14,7 @@ For our Big Data project, we partnered with the [Athletes Network](https://www.a
 
 The Athletes Network advisors manually review thousands of potential athlete-job pairings. Only about 1 in 20 is a genuine match, meaning that the athlete fits the job description. The existing system flags everything that looks remotely plausible, forcing advisors to spend most of their time rejecting bad suggestions.
 
-![The AI Matchmaker: Finding the 5% Fit](AthletesNetwork_img.png)
+![The AI Matchmaker: Finding the 5% Fit](./assets/img/AthletesNetwork_img.png)
 
 We wanted to reduce that noise. Fewer false alarms means advisors spend their time on candidates who actually fit.
 
