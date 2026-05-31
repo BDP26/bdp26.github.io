@@ -18,7 +18,7 @@ Unser Workflow kombiniert drei externe Quellen:
 
 Diese Eingaben laufen durch eine Pipeline im Medallion-Stil (`bronze -> silver -> gold`). In Silver werden Quelldaten vereinheitlicht und über unterschiedliche Schreibweisen, Spielversionen und Kontexte hinweg verknüpft. In Gold erzeugen wir gültige Kandidaten für Spieler-Teams, vergleichen sie mit Boss-Teams und ordnen sie nach simulierter Siegquote.
 
-![Pipeline overview](../assets/img/pokemon-pipeline-flowchart.png)
+![Pipeline overview](/assets/img/pokemon-pipeline-flowchart.png)
 *Pipeline vom Rohdatenimport bis zu sortierten Team-Empfehlungen.*
 
 Der Umfang des Projekts zeigt, warum sich die manuelle Teamwahl nur schwer optimieren lässt:
@@ -51,7 +51,7 @@ Das Typsystem ist dabei ein zentraler Einflussfaktor. Ein Team, das eine Wasser-
 
 Das Endergebnis wird in einer walkthrough-orientierten Ansicht dargestellt. Spielende wählen ein Spiel und ihr Starter-Pokemon aus, danach liefert die Oberfläche die stärksten verfügbaren Team-Empfehlungen für den nächsten wichtigen Kampf.
 
-![Walkthrough team recommendations](../assets/img/pokemon-walkthrough-view.png)
+![Walkthrough team recommendations](/assets/img/pokemon-walkthrough-view.png)
 *Walkthrough-Ansicht mit kontextabhängigen Team-Empfehlungen.*
 
 Diese Ansicht macht das Kernergebnis sichtbar: Das "beste" Team hängt davon ab, wo man sich im Spiel befindet, welchen Starter man gewählt hat und welche Pokemon vor dem nächsten Boss realistisch fangbar sind.
@@ -67,5 +67,5 @@ Das Projekt hat ausserdem gezeigt, dass die Datenintegration mindestens so anspr
 Kurz gesagt macht das Projekt aus Team-Building in Pokemon ein reproduzierbares Analyseproblem. Es ersetzt die Entscheidung der Spielenden nicht, liefert dafür aber eine deutlich bessere Grundlage.
 
 <p style="text-align: center;">
-  <img src="../assets/img//pokemon-team-walk.gif" alt="" width="320">
+  <img src="/assets/img//pokemon-team-walk.gif" alt="" width="320">
 </p>
