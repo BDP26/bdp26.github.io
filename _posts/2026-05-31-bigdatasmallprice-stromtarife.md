@@ -24,7 +24,7 @@ BigDataSmallPrice verarbeitet acht Datenquellen. Dazu gehören Day-Ahead-Preise 
 
 Die Daten kommen in unterschiedlichen Formaten, Zeitzonen und Auflösungen. Einige Werte sind stündlich, andere viertelstündlich oder täglich verfügbar. Deshalb war ein grosser Teil des Projekts klassische Datenarbeit: Daten abrufen, prüfen, vereinheitlichen, speichern und für Machine Learning nutzbar machen.
 
-![Datenfluss von BigDataSmallPrice](bilder/datenfluss-architektur.png)
+![Datenfluss von BigDataSmallPrice](/assets/img/datenfluss-architektur.png)
 
 Die Pipeline läuft mit Apache Airflow. Rohdaten werden in TimescaleDB gespeichert, einer PostgreSQL-Erweiterung für Zeitreihendaten. Insgesamt umfasst unsere Datenbank rund **1,5 Millionen Zeitreihenpunkte**. Allein der Winterthurer Bruttolastgang enthält rund **462'000 Viertelstundenwerte** aus 13 Jahren.
 
@@ -44,7 +44,7 @@ Die Resultate zeigen, dass sich dynamische Stromtarife mit öffentlich verfügba
 
 Damit lagen beide Modelle deutlich unter unseren ursprünglichen Qualitätszielen: 8 Prozent Fehler für die Lastprognose und 15 Prozent für die Energiepreisprognose. Der API-Endpunkt liefert daraus eine **7-Tage-Prognose im 15-Minuten-Raster**, also **672 Prognosepunkte** pro Abruf.
 
-![Dashboard mit prognostizierten Stromtarifen](bilder/image%20(1).png)
+![Dashboard mit prognostizierten Stromtarifen](/assets/img/image%20(1).png)
 
 Das Dashboard übersetzt diese Daten in eine einfache Ampellogik. Es markiert günstige, mittlere und teure Zeitfenster und macht sichtbar, wann sich flexible Verbraucher wie E-Autos, Waschmaschinen oder Wärmepumpen besonders lohnen.
 
