@@ -1,7 +1,7 @@
 ---
 
 layout: post
-title: "GridWatch"
+title: "Grün genug? Wann erneuerbare Energie die Schweiz wirklich versorgt"
 author: Natalie Jakab, Sarruja Sabesan und Gwendoline Vocat
 
 ---
