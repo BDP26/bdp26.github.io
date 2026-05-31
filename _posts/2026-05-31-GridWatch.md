@@ -6,8 +6,6 @@ author: Natalie Jakab, Sarruja Sabesan und Gwendoline Vocat
 
 ---
 
-<img src="../assets/img/gridwatch/ZHAW_LOGO_2.webp" alt="ZHAW Logo" width="150">
-
 *Blogartikel GridWatch*  
 *ZHAW Data Science | PM4 - Big Data Projekt | Mai 2026*
 
