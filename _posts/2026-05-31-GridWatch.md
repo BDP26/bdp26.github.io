@@ -54,7 +54,7 @@ Die eigentliche Herausforderung war die Infrastruktur: Wir kombinierten stündli
 
 **Saubere Daten entstehen nicht von selbst.**
 
-![Architekturdiagramm](../assets/img/pipeline.png)
+![Architekturdiagramm](/assets/img/pipeline.png)
 > 📷 *Architekturdiagramm: Datenpipeline*
 
 ---
@@ -63,7 +63,7 @@ Die eigentliche Herausforderung war die Infrastruktur: Wir kombinierten stündli
 Das ist das klassische Schweizer Winterproblem: **Maximaler Bedarf** trifft auf **minimale erneuerbare Produktion**.
  Steigt die Temperatur (gelb), sinkt der Verbrauch (grün) und umgekehrt.
 
-![Verbrauch_vs_Temperatur](../assets/img/Verbrauch_vs_Temperatur.png)
+![Verbrauch_vs_Temperatur](/assets/img/Verbrauch_vs_Temperatur.png)
 > 📷 *Verbrauch vs Temperatur*
 
 
@@ -72,11 +72,11 @@ Solarproduktion und Sonnenstrahlung verlaufen saisonal: hoch im Sommer, tief im 
 <table style="border: none; border-collapse: collapse; width: 100%; table-layout: fixed;">
   <tr>
     <td style="border: none; width: 100%; text-align: center; padding-right: 20px;">
-      <img src="../assets/img/Solar-Produktion_vs_Sonnenstrahlung.png" width="150%">
+      <img src="/assets/img/Solar-Produktion_vs_Sonnenstrahlung.png" width="150%">
       <br>📷 <em>Solar-Produktion vs Sonnenstrahlung</em>
     </td>
     <td style="border: none; width: 50%; text-align: center; padding-left: 50px;">
-      <img src="../assets/img/Wind-Produktion_vs_Windgeschwindigkeit.png" width="100%">
+      <img src="/assets/img/Wind-Produktion_vs_Windgeschwindigkeit.png" width="100%">
       <br>📷 <em>Wind-Produktion vs Windgeschwindigkeit</em>
     </td>
   </tr>
@@ -93,11 +93,11 @@ Für die zweite Forschungsfrage haben wir Szenarien modelliert: Was passiert, we
 <table style="border: none; border-collapse: collapse; width: 100%;">
   <tr>
     <td style="border: none; width: 50%; text-align: center; padding-right: 10px;">
-      <img src="../assets/img/Szenario_Solar.png" width="100%">
+      <img src="/assets/img/Szenario_Solar.png" width="100%">
       <br>📷 <em>Solar Szenario</em>
     </td>
     <td style="border: none; width: 50%; text-align: center; padding-left: 10px;">
-      <img src="../assets/img/Szenario_Wind.png" width="100%">
+      <img src="/assets/img/Szenario_Wind.png" width="100%">
       <br>📷 <em>Wind Szenario</em>
     </td>
   </tr>
